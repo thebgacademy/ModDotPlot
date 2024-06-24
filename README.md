@@ -1,14 +1,17 @@
-# TEMPLATE
+# Exploring Satellite DNA using ModDotPlot
 
 This session is part of [**Biodiversity Genomics Academy 2024**](https://thebgacademy.org/)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/thebgacademy/TEMPLATE)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/thebgacademy/ModDotPlot)
 
 ## Session Leader(s)
 
+Exploring Satellite DNA using ModDotPlot
+
+- Alex Sweeten, PhD
 
 ## Description
-
+I’d like to give a brief talk on ModDotPlot and how it’s used to visualize tandem repeats. Then I’d like to have attendees run ModDotPlot on a set of “unknown” genome assemblies, and analyze their centromere location, satellite content, and see if there are any misassemblies.
 
 
 ## Prerequisites
