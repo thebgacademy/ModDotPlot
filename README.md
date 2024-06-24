@@ -1,8 +1,10 @@
 # Exploring Satellite DNA using ModDotPlot
 
-This session is part of [**Biodiversity Genomics Academy 2024**](https://thebgacademy.org/)
+#BGA24/sessions #GitPod #Tools
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/thebgacademy/ModDotPlot)
+This session is part of [**Biodiversity Genomics Academy 2024**](https://thebgacademy.org)
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/thebgacademy/ModDotPlot) 
 
 ## Session Leader(s)
 
