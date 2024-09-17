@@ -8,12 +8,12 @@ This session is part of [**Biodiversity Genomics Academy 2024**](https://thebgac
 
 ## Session Leader(s)
 
-Exploring Satellite DNA using ModDotPlot
+National Human Genome Research Institute, Johns Hopkins University
 
-- Alex Sweeten, PhD
+- Alex Sweeten, PhD Student
 
 ## Description
-I’d like to give a brief talk on ModDotPlot and how it’s used to visualize tandem repeats. Then I’d like to have attendees run ModDotPlot on a set of “unknown” genome assemblies, and analyze their centromere location, satellite content, and see if there are any misassemblies.
+This session will introduce the tool ModDotPlot for visualizing large tandem repeats. Attendees will learn how to optimally run ModDotPlot on a set of “unknown” genome assemblies, and analyze their centromere location, satellite content, and see if there are any misassemblies.
 
 
 ## Prerequisites
