@@ -1,8 +1,16 @@
 image: gitpod/workspace-full-vnc
 
-- name: SETUP
+tasks:
+- name: SETUP - PYTHON ENVIRONMENT
   init: |
-    echo "Hello there - Welcome to GitPod
+    wget "https://github.com/marbl/ModDotPlot/archive/refs/tags/v0.8.7.zip"
+    unzip ModDotPlot-0.8.7
+
+    cd ModDotPlot-0.8.7
+    python -m venv venv
+    source venv/bin/activate
+    python -m pip install .
+    clear
 
 ports:
   - port: 5900
