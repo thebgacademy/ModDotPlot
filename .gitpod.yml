@@ -4,7 +4,7 @@ tasks:
 - name: SETUP - PYTHON ENVIRONMENT
   init: |
     wget "https://github.com/marbl/ModDotPlot/archive/refs/tags/v0.8.7.zip"
-    unzip ModDotPlot-0.8.7
+    unzip v*.zip
 
     cd ModDotPlot-0.8.7
     python -m venv venv
