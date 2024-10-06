@@ -3,14 +3,19 @@ image: gitpod/workspace-full-vnc
 tasks:
 - name: SETUP - PYTHON ENVIRONMENT
   init: |
-    wget "https://github.com/marbl/ModDotPlot/archive/refs/tags/v0.8.7.zip"
+    wget "https://github.com/marbl/ModDotPlot/archive/refs/tags/v0.9.0.zip"
     unzip v*.zip
 
-    cd ModDotPlot-0.8.7
+    cd ModDotPlot-0.9.0
     python -m venv venv
     source venv/bin/activate
     python -m pip install .
+    cd ..
+
+    wget "https://cs.jhu.edu/~asweeten/bga24/bga24_data.tar.gz"
+    tar -xvzf bga24_data.tar.gz
     clear
+    echo "Ready to make some dotplots :)"
 
 ports:
   - port: 5900
