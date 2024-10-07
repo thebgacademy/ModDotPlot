@@ -21,7 +21,7 @@ moddotplot -h
 ```
 ModDotPlot can run either in **static** mode which produces simple image files, or **interactive** mode which launches an interactive web browser. For now, let's produce some static plots! (Don't worry about understanding the parameters yet, we'll go over them later)
 ```bash
- moddotplot static -f bga24_data/acro_short_arms/*.fa -o short_arms --compare --grid
+ moddotplot static -f bga24_data/acro_short_arms/*.fa -o output/short_arms --compare --grid
 ```
 
  This command should take ~10 minutes to run. The vast majority of this runtime is plot rendering. While its running, we'll go through the [presentation](moddotplot.pdf) explaining how ModDotPlot works and how to interpret the plots it produces.
@@ -67,7 +67,7 @@ Sequences 1, 2, and 3 represent the short arms of Chr13, Chr14, and Chr21. Can y
 rDNA is, arguably, one of the most difficult regions of the human genome to assemble. This is due to their highly repetitive tandem repeats often spanning megabases in length.
 
 ```bash
- moddotplot static -f bga24_data/acro_short_arms/*.fa -o short_arms --compare --grid
+ moddotplot static -f bga24_data/acro_short_arms/*.fa -o output/rdna --compare --grid
 ```
 
 Unlike with the short arms, this command should run in under a minute! One of these haplotypes contains a missassembly. Can you figure out which one?
@@ -76,7 +76,7 @@ Unlike with the short arms, this command should run in under a minute! One of th
 
 ModDotPlot is able to produce a hierarchy of matrices, thanks to the hierarchical sketching approach it uses. These matrices can be saved using the `--save` command when running ModDotPlot in interactive mode, and accessed without expensive re-computation using `-l/--load`. Let's open a pre-computed view of an Arabadopsis chromosome:
 ```bash
-moddotplot interactive --load data/arabadopsis/interactive_matrices
+moddotplot interactive --load bga24_data/arabadopsis/interactive_matrices
 ```
 The above command launches an application on your machine's localhost, on port `8050` (this can be changed using the `--port` command). To view, simply go to your web browser of choice and `localhost:8050`. This might not be possible if you're running ModDotPlot on an HPC environment. Fortunately for our purposes, VSCode and GitPod support automatic port forwarding! This creates an [SSH tunnel](https://en.wikipedia.org/wiki/Tunneling_protocol#Secure_Shell_tunneling) between GitPod and your local machine, allowing you to view `localhost:8050`.
 
@@ -92,7 +92,7 @@ As our final dataset for the day, we want to look at the centromeres of two huma
 moddotplot interactive -f bga24_data/cenX/*.fa --quick --compare
 ```
 
-Adding `--quick` prevents the creation of hierarchical matrices. While this loses out in interactivity, this is nice to quickly explore a genome & ply with other paramaters.
+Adding `--quick` prevents the creation of hierarchical matrices. While this loses out in interactivity, this is nice to quickly explore a genome & play with other paramaters.
 
 #### Issues
 
