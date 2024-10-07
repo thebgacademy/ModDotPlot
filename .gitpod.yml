@@ -14,6 +14,7 @@ tasks:
 
     wget "https://cs.jhu.edu/~asweeten/bga24/bga24_data.tar.gz"
     tar -xvzf bga24_data.tar.gz
+    rm bga24_data.tar.gz
     clear
     echo "Ready to make some dotplots :)"
 
