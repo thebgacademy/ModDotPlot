@@ -67,7 +67,7 @@ Sequences 1, 2, and 3 represent the short arms of Chr13, Chr14, and Chr21. Can y
 rDNA is, arguably, one of the most difficult regions of the human genome to assemble. This is due to their highly repetitive tandem repeats often spanning megabases in length.
 
 ```bash
- moddotplot static -f bga24_data/acro_short_arms/*.fa -o output/rdna --compare --grid
+ moddotplot static -f bga24_data/rDNA/*.fa -o output/rdna --compare --grid
 ```
 
 Unlike with the short arms, this command should run in under a minute! One of these haplotypes contains a missassembly. Can you figure out which one?
