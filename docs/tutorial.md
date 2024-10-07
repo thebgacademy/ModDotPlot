@@ -24,7 +24,7 @@ ModDotPlot can run either in **static** mode which produces simple image files, 
  moddotplot static -f bga24_data/acro_short_arms/*.fa -o short_arms --compare --grid
 ```
 
- This command should take ~10 minutes to run. While its running, we'll go through the [presentation](moddotplot.pdf) explaining how ModDotPlot works and how to interpret the plots it produces.
+ This command should take ~10 minutes to run. The vast majority of this runtime is plot rendering. While its running, we'll go through the [presentation](moddotplot.pdf) explaining how ModDotPlot works and how to interpret the plots it produces.
 
 ### Let’s take a look at the outputs
 ```bash
