@@ -96,4 +96,4 @@ Adding `--quick` prevents the creation of hierarchical matrices. While this lose
 
 #### Issues
 
-For troubleshooting, bug reports, please message me on Discord or afterwards on . Thanks for using ModDotPlot! :)
+For troubleshooting, bug reports, or general questions, please message me on the BGA24 Discord's #moddotplot-2024 channel, or anytime afterwards at alex ~dot~ sweeten ~at~ nih ~dot~ gov. Thanks for using ModDotPlot! :)
