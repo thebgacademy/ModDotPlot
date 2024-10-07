@@ -29,5 +29,8 @@ This session will introduce the tool ModDotPlot for visualizing large tandem rep
 >    If you don't meet the prerequisites or change your mind based on the description or are no longer available at the session time, please email damon at thebgacademy.org to cancel your slot so that someone else on the waitlist might attend.
 
 
-## Instructions
-For Session Leader
+## Tutorial
+[Detailed tutorial steps here](docs/tutorial.md)
+
+## Slides
+[ModDotPlot introduction](docs/moddotplot.pdf)
