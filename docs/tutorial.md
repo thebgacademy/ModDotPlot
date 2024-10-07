@@ -5,8 +5,8 @@ Get a "Regular" instance: 4 cores, 8 G RAM, 30 GB Storage
 ## Learning goals
 
  - Understand main ModDotPlot parameters
- - Learn how to interpret results
- - Learn how to customize plots to create publication quality figures
+ - Interpret results
+ - Customize plots to create publication quality figures
 
  ## Where's the data?
 
@@ -96,4 +96,4 @@ Adding `--quick` prevents the creation of hierarchical matrices. While this lose
 
 #### Issues
 
-For troubleshooting, bug reports, or general questions, please message me on the BGA24 Discord's #moddotplot-2024 channel, or anytime afterwards at alex ~dot~ sweeten ~at~ nih ~dot~ gov. Thanks for using ModDotPlot! :)
+For troubleshooting, bug reports, or general questions, please message me on the BGA24 Discord's #moddotplot-2024 channel, or anytime afterwards at alex dot sweeten at nih dot gov. Thanks for using ModDotPlot! :)
